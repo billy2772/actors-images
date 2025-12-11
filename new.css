@@ -1,0 +1,39 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: 3px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav ul{
+    display:flex;
+    list-style: none;
+    gap: 25px;
+    padding: 4%;
+    
+}
+img{
+    height: 100px;
+    width: 100px;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+div button{
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: blue;
+    background-color: black;
+
+}
+.d{
+    background: black;
+    color: white;
+}
