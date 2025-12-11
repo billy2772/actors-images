@@ -1,2 +1,0 @@
-# actors-images
-actors details
